@@ -1,4 +1,4 @@
-import { Avatar, Card, useTheme } from "@mui/material";
+import { Card, useTheme } from "@mui/material";
 import React from "react";
 import UserAvatar from "./UserAvatar";
 import HorizontalStack from "./util/HorizontalStack";

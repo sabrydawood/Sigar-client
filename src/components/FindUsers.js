@@ -1,5 +1,4 @@
 import {
-  Avatar,
   Card,
   Divider,
   IconButton,

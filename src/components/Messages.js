@@ -1,17 +1,12 @@
 import {
-  Button,
   Divider,
-  FormControl,
   IconButton,
-  InputAdornment,
-  InputLabel,
-  OutlinedInput,
   Stack,
   Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useRef, useState } from "react";
-import { AiFillBackward, AiFillCaretLeft, AiFillMessage } from "react-icons/ai";
+import { AiFillCaretLeft, AiFillMessage } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { getMessages, sendMessage } from "../api/messages";
 import { isLoggedIn } from "../helpers/authHelper";

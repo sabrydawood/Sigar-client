@@ -1,5 +1,4 @@
 import {
-  Button,
   Card,
   IconButton,
   Stack,
@@ -22,10 +21,10 @@ import {} from "react-icons/ai";
 import ContentUpdateEditor from "./ContentUpdateEditor";
 import Markdown from "./Markdown";
 
-import "./postCard.css";
+//import "./postCard.css";
 import { MdCancel } from "react-icons/md";
 import { BiTrash } from "react-icons/bi";
-import { BsReplyFill } from "react-icons/bs";
+//import { BsReplyFill } from "react-icons/bs";
 
 const PostCard = (props) => {
   const { preview, removePost } = props;

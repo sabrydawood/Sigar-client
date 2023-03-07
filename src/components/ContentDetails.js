@@ -1,4 +1,4 @@
-import { Avatar, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import React from "react";
 import HorizontalStack from "./util/HorizontalStack";
 import Moment from "react-moment";

@@ -1,6 +1,5 @@
-import { Container, Stack, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
-import GoBack from "../GoBack";
+import { Container, Stack } from "@mui/material";
+import React from "react";
 import GridLayout from "../GridLayout";
 import Navbar from "../Navbar";
 import PostBrowser from "../PostBrowser";

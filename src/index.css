@@ -1,3 +1,10 @@
+.markdown :first-child {
+  margin-top: 0;
+}
+
+.markdown :last-child {
+  margin-bottom: 0;
+}
 .post-card .primary .content {
   -webkit-mask-image: linear-gradient(black 175px, transparent 250px);
   mask-image: linear-gradient(black 175px, transparent 250px);

@@ -1,15 +1,11 @@
 import {
   Button,
-  FormControl,
-  InputAdornment,
-  InputLabel,
-  OutlinedInput,
   Stack,
   TextField,
 } from "@mui/material";
-import React, { useEffect, useState } from "react";
-import { sendMessage } from "../api/messages";
-import { isLoggedIn } from "../helpers/authHelper";
+import React, { useState } from "react";
+//import { sendMessage } from "../api/messages";
+//import { isLoggedIn } from "../helpers/authHelper";
 import HorizontalStack from "./util/HorizontalStack";
 
 const SendMessage = (props) => {
