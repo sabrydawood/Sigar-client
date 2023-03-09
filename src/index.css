@@ -4,6 +4,8 @@
 
 .markdown :last-child {
   margin-bottom: 0;
+	color: red;
+	background: #f080;
 }
 .post-card .primary .content {
   -webkit-mask-image: linear-gradient(#f095e2 175px, transparent 250px);

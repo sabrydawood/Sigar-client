@@ -22,6 +22,7 @@ import SignupView from "./components/views/SignupView";
 import ExploreView from "./components/views/ExploreView";
 import PrivateRoute from "./components/PrivateRoute";
 import Player from "./components/Player";
+import Footer from "./components/Footer";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
 import { initiateSocketConnection} from "./helpers/socketHelper";
@@ -59,6 +60,7 @@ function App() {
           <Route path="/login" element={<LoginView />} />
           <Route path="/signup" element={<SignupView />} />
         </Routes>
+				<Footer />
       </BrowserRouter>
     </ThemeProvider>
   );

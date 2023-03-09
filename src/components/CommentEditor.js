@@ -75,6 +75,7 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             name="content"
             sx={{
               backgroundColor: "white",
+				color: "red.200"
             }}
             onChange={handleChange}
             onFocus={handleFocus}
@@ -89,6 +90,7 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             disabled={loading}
             sx={{
               backgroundColor: "white",
+							color: "red.200",
               mt: 2,
             }}
           >
