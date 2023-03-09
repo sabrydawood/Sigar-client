@@ -35,11 +35,14 @@ const LikeBox = (props) => {
             <AiFillLike />
           </IconContext.Provider>
         ) : (
+	
           <AiOutlineLike
+			          
 						sx={{
-							backgroundColor: 'pink.500'
+							color: 'pink.500'
 						}}
 						/>
+										
         )}
       </IconButton>
       <Typography>{likeCount}</Typography>
