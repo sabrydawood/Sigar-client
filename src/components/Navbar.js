@@ -5,6 +5,7 @@ import {
   TextField,
   Typography,
   Button,
+	Avatar
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
@@ -67,7 +68,7 @@ const Navbar = () => {
   return (
     <Stack mb={2} 	
 			sx={{
-		backgroundColor: 'pink.500'
+		backgroundColor: '#802145'
   }}
 >
       <Stack
@@ -86,6 +87,15 @@ const Navbar = () => {
             color={theme.palette.primary.main}
             onClick={() => navigate("/")}
           />*/}
+					<Avatar
+      sx={{
+size : 33,
+        backgroundColor: "lightgray",
+
+      }}
+      src={"/assets/img/developer.gif"}
+										onClick={() => navigate("/")}
+    />
           <Typography
             sx={{ display: mobile ? "none" : "block" }}
             variant={navbarWidth ? "h6" : "h4"}
