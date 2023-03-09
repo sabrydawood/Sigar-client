@@ -6,18 +6,18 @@
   margin-bottom: 0;
 }
 .post-card .primary .content {
-  -webkit-mask-image: linear-gradient(aquamarine 175px, transparent 250px);
-  mask-image: linear-gradient(aquamarine 175px, transparent 250px);
+  -webkit-mask-image: linear-gradient(#f095e2 175px, transparent 250px);
+  mask-image: linear-gradient(#f095e2 175px, transparent 250px);
 }
 
 .post-card .secondary .title {
-  -webkit-mask-image: linear-gradient(aquamarine 70px, transparent 125px);
-  mask-image: linear-gradient(aquamarine 70px, transparent 125px);
+  -webkit-mask-image: linear-gradient(#f095e2 70px, transparent 125px);
+  mask-image: linear-gradient(#f095e2 70px, transparent 125px);
 }
 
 html {
   overflow-y: scroll;
-	background: red; 
+	background: #7d2870; 
 }
 
 
