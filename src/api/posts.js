@@ -1,4 +1,4 @@
-import { BASE_URL } from "../config";
+import { BASE_URL } from "../config/config";
 
 const getUserLikedPosts = async (likerId, token, query) => {
   try {

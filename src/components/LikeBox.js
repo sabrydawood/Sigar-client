@@ -39,7 +39,11 @@ const LikeBox = (props) => {
 					          </IconContext.Provider>	
         )}
       </IconButton>
-      <Typography>{likeCount}</Typography>
+      <Typography
+					sx={{
+		backgroundColor: 'pink.500'
+  }}
+				>{likeCount}</Typography>
     </Stack>
   );
 };

@@ -13,7 +13,7 @@ import {
   Routes
 } from "react-router-dom";
 
-import theme from "./theme";
+import theme from "./config/theme";
 import PostView from "./components/views/PostView";
 import CreatePostView from "./components/views/CreatePostView";
 import ProfileView from "./components/views/ProfileView";
@@ -25,13 +25,15 @@ import Player from "./components/Player";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
 import { initiateSocketConnection} from "./helpers/socketHelper";
-
+import Seo from "./helpers/Seo"
 function App() {
   initiateSocketConnection();
   return (
     <ThemeProvider theme={theme}>
+			<Seo />
 			<Player url= {"/assets/music/Soltanek.mp3"} />
       <BrowserRouter>
+				
         <CssBaseline />
         <Routes>
           <Route path="/" element={<ExploreView />} />

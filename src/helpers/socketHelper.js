@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-import { BASE_URL } from "../config";
+import { BASE_URL } from "../config/config";
 import { isLoggedIn } from "./authHelper";
 
 export let socket;
