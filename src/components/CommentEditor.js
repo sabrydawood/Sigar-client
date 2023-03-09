@@ -4,6 +4,7 @@ import {
   Stack,
   TextField,
   Typography,
+	CircularProgressWithLabel
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
@@ -74,8 +75,8 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             required
             name="content"
             sx={{
-              backgroundColor: "white",
-				color: "red.200"
+              backgroundColor: "transparent",
+				color: "pink.500"
             }}
             onChange={handleChange}
             onFocus={handleFocus}
@@ -89,12 +90,12 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             fullWidth
             disabled={loading}
             sx={{
-              backgroundColor: "white",
-							color: "red.200",
+              backgroundColor: "transparent",
+							color: "pink.500",
               mt: 2,
             }}
           >
-            {loading ? <div>Submitting</div> : <div>Submit</div>}
+            {loading ? <div>Submitting <CircularProgressWithLabel value={progress} /> </div> : <div>Submit</div>}
           </Button>
         </Box>
       </Stack>
