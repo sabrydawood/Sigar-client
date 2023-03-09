@@ -67,10 +67,13 @@ const theme = createTheme({
       disabled: "rgba(255, 255, 255, 0.5)",
       icon: "rgba(255, 255, 255, 0.5)",
       divider: "rgba(255, 255, 255, 0.12)",
+			pink: pink[500],
     },
     background: {
       paper: "#121212",
       default: "#121212",
+			pink: pink[500],
+			
     },
     action: {
       active: "#fff",
