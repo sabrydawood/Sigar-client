@@ -46,7 +46,7 @@ const Profile = (props) => {
               />
             </Box>
           ) : user.biography ? (
-            <Typography textAlign="center" variant="p">
+            <Typography textAlign="center" backgroundVolor= "red" variant="p">
               <b>Bio: </b>
               {user.biography}
             </Typography>

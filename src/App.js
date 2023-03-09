@@ -12,8 +12,8 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import theme from "./theme";
 
+import theme from "./theme";
 import PostView from "./components/views/PostView";
 import CreatePostView from "./components/views/CreatePostView";
 import ProfileView from "./components/views/ProfileView";
@@ -21,15 +21,16 @@ import LoginView from "./components/views/LoginView";
 import SignupView from "./components/views/SignupView";
 import ExploreView from "./components/views/ExploreView";
 import PrivateRoute from "./components/PrivateRoute";
+import Player from "./components/Player";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
 import { initiateSocketConnection} from "./helpers/socketHelper";
 
 function App() {
   initiateSocketConnection();
-
   return (
     <ThemeProvider theme={theme}>
+			<Player url= {"/assets/music/Soltanek.mp3"} />
       <BrowserRouter>
         <CssBaseline />
         <Routes>

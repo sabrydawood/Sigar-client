@@ -65,7 +65,7 @@ const Navbar = () => {
   };
 
   return (
-    <Stack mb={2}>
+    <Stack mb={2} bg= {"aqua"}>
       <Stack
         direction="row"
         alignItems="center"
@@ -77,11 +77,11 @@ const Navbar = () => {
         spacing={!mobile ? 2 : 0}
       >
         <HorizontalStack>
-          <AiFillFileText
+					{/*  <AiFillFileText
             size={33}
             color={theme.palette.primary.main}
             onClick={() => navigate("/")}
-          />
+          />*/}
           <Typography
             sx={{ display: mobile ? "none" : "block" }}
             variant={navbarWidth ? "h6" : "h4"}

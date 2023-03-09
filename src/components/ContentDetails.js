@@ -11,13 +11,13 @@ const ContentDetails = ({ username, createdAt, edited, preview }) => {
       <UserAvatar width={30} height={30} username={username} />
       <Typography variant="subtitle2" color="text.secondary" gutterBottom>
         <Link
-          color="inherit"
+          color="#ffffff"
           underline="hover"
           onClick={(e) => {
             e.stopPropagation();
           }}
           to={"/users/" + username}
-        >
+					  >
           {username}
         </Link>
         {!preview && (

@@ -1,6 +1,6 @@
 
 hidden = [".config", "package-lock.json"]
-run = "npm run start"
+run = "DISABLE_ESLINT_PLUGIN=true react-scripts start"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
