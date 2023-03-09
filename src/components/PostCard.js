@@ -110,7 +110,11 @@ const PostCard = (props) => {
   
 							/>
           </Stack>
-          <PostContentBox clickable={preview} post={post} editing={editing}>
+          <PostContentBox clickable={preview} post={post} editing={editing}
+				sx={{
+		backgroundColor: 'pink.500'
+				}}
+						>
             <HorizontalStack justifyContent="space-between">
               <ContentDetails
                 username={post.poster.username}
