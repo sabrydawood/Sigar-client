@@ -141,7 +141,7 @@ const PostBrowser = (props) => {
 
         {posts.map((post, i) => (
           <PostCard
-						/* preview="primary"*/
+						preview="primary"
             key={post._id}
             post={post}
             removePost={removePost}
