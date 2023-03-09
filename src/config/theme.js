@@ -69,8 +69,8 @@ const theme = createTheme({
 			divider: "rgba(255, 255, 255, 0.12)",
 		},
 		background: {
-			paper: "#121212",
-			default: "#121212",
+			paper: "#f26df0",
+			default: "#f26df0",
 		},
 		action: {
 			active: "#fff",

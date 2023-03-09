@@ -58,7 +58,7 @@ const Comment = (props) => {
   };
 
   let style = {
-    backgroundColor: theme.palette.grey[100],
+    backgroundColor: theme.palette.primary.main,
     borderRadius: 1.5,
     mb: theme.spacing(2),
     padding: theme.spacing(0),

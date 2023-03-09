@@ -15,7 +15,7 @@ const Message = (props) => {
     };
   } else if (message.direction === "from") {
     styles = {
-      messageColor: theme.palette.grey["100"],
+      messageColor: theme.palette.primary.main,
       justifyContent: "flex-end",
     };
   }
