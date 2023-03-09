@@ -25,7 +25,7 @@ const LikeBox = (props) => {
 	return (
 		<Stack alignItems="center"
 			sx={{
-				//backgroundColor: 'pink.500',
+			backgroundColor: 'pink.500',
 				color: "red.500"
 			}}
 		>
@@ -42,7 +42,7 @@ const LikeBox = (props) => {
 			</IconButton>
 			<Typography
 				sx={{
-					//backgroundColor: 'pink.500',
+					backgroundColor: 'pink.500',
 					color: "pink.500"
 				}}
 			>{likeCount}</Typography>
