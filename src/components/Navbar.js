@@ -65,7 +65,11 @@ const Navbar = () => {
   };
 
   return (
-    <Stack mb={2} bg= {"aqua"}>
+    <Stack mb={2} 	
+			sx={{
+		backgroundColor: 'pink.500'
+  }}
+>
       <Stack
         direction="row"
         alignItems="center"

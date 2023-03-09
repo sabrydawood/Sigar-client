@@ -107,7 +107,8 @@ const PostCard = (props) => {
               likeCount={likeCount}
               liked={post.liked}
               onLike={handleLike}
-            />
+  
+							/>
           </Stack>
           <PostContentBox clickable={preview} post={post} editing={editing}>
             <HorizontalStack justifyContent="space-between">
