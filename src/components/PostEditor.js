@@ -4,7 +4,6 @@ import {
 	Stack,
 	TextField,
 	Typography,
-	CircularProgress
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
@@ -105,8 +104,7 @@ const PostEditor = () => {
 						}}
 					>
 						{loading ? <>
-							Submitting
-							<CircularProgress color="secondary" />						</> : <>Submit</>}
+							Posting </> : <>Post</>}
 					</Button>
 				</Box>
 			</Stack>
