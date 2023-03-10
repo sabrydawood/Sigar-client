@@ -21,7 +21,7 @@ import LoginView from "./components/views/LoginView";
 import SignupView from "./components/views/SignupView";
 import ExploreView from "./components/views/ExploreView";
 import PrivateRoute from "./components/PrivateRoute";
-
+import PageNotFound from "./components/Error/404"
 import Footer from "./components/Footer";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
@@ -58,6 +58,7 @@ function App() {
           <Route path="/users/:id" element={<ProfileView />} />
           <Route path="/login" element={<LoginView />} />
           <Route path="/signup" element={<SignupView />} />
+					 <Route path="*" component={PageNotFound} />
         </Routes>
 				<Footer />
       </BrowserRouter>
