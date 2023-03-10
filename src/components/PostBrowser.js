@@ -140,12 +140,15 @@ const PostBrowser = (props) => {
         )}
 
         {posts.map((post, i) => (
+		<div>	
+<p>can't redirect here</p>
           <PostCard
 						preview="primary"
             key={post._id}
             post={post}
             removePost={removePost}
           />
+			</div>
         ))}
 
         {loading && <Loading />}

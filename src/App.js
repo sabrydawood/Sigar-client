@@ -21,7 +21,7 @@ import LoginView from "./components/views/LoginView";
 import SignupView from "./components/views/SignupView";
 import ExploreView from "./components/views/ExploreView";
 import PrivateRoute from "./components/PrivateRoute";
-import Player from "./components/Player";
+
 import Footer from "./components/Footer";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
@@ -32,7 +32,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
 			<Seo />
-			<Player url= {"/assets/music/Soltanek.mp3"} />
       <BrowserRouter>
 				
         <CssBaseline />

@@ -98,7 +98,7 @@ const PostCard = (props) => {
             alignItems="center"
             spacing={1}
             sx={{
-              backgroundColor: "grey.100",
+              backgroundColor: "transparent",
               width: "50px",
               padding: theme.spacing(1),
             }}
@@ -112,7 +112,7 @@ const PostCard = (props) => {
           </Stack>
           <PostContentBox clickable={preview} post={post} editing={editing}
 				sx={{
-		backgroundColor: 'pink.500'
+		backgroundColor: 'transparent'
 				}}
 						>
             <HorizontalStack justifyContent="space-between">

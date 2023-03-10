@@ -22,7 +22,7 @@ export const siteConfig = {
 			url: websiteUrl,
 			type: "website",
 			image: {
-				url: `${websiteUrl}/assets/img/devloper.gif`,
+				url: `${websiteUrl}/static/assets/img/devloper.gif`,
 				width: 1240,
 				height: 1080,
 				alt: "web site For developer who need to share feeds to outher or get help",
@@ -36,7 +36,7 @@ export const siteConfig = {
 			handle: "@virus24",
 			cardType: "summary_large_image",
 			image: {
-				url: `${websiteUrl}/assets/img/devloper.gif`,
+				url: `${websiteUrl}/static/assets/img/devloper.gif`,
 				width: 1012,
 				height: 506,
 				alt: "web site For developer who need to share feeds to outher or get help",
