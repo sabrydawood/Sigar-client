@@ -95,6 +95,9 @@ const SignupView = () => {
             required
             id="username"
             name="username"
+
+            type="text"
+
             onChange={handleChange}
             error={errors.username !== undefined}
             helperText={errors.username}
@@ -107,6 +110,8 @@ const SignupView = () => {
             required
             id="email"
             name="email"
+						
+            type="email"
             onChange={handleChange}
             error={errors.email !== undefined}
             helperText={errors.email}

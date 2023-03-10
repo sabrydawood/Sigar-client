@@ -64,6 +64,7 @@ const LoginView = () => {
             required
             id="email"
             name="email"
+            type="email"
             onChange={handleChange}
           />
           <TextField
