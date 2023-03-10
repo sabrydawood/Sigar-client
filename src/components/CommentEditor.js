@@ -94,7 +94,7 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
               mt: 2,
             }}
           >
-            {loading ? <div>Submitting <CircularProgressWithLabel value={progress} /> </div> : <div>Submit</div>}
+            {loading ? <div>Submitting Comment ...</div> : <div>Submit</div>}
           </Button>
         </Box>
       </Stack>
