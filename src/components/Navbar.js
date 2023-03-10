@@ -12,7 +12,6 @@ import React, { useEffect, useState } from "react";
 import "react-icons/ai";
 import "react-icons/ri";
 import {
-	AiFillFileText,
 	AiFillHome,
 	AiFillMessage,
 	AiOutlineSearch,
@@ -83,11 +82,7 @@ const Navbar = () => {
 				spacing={!mobile ? 2 : 2}
 			>
 				<HorizontalStack>
-					{/*  <AiFillFileText
-            size={33}
-            color={theme.palette.primary.main}
-            onClick={() => navigate("/")}
-          />*/}
+
 					<Avatar
 						sx={{
 							size: 33,
