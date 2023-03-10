@@ -12,6 +12,7 @@ import { login } from "../../api/users";
 import ErrorAlert from "../ErrorAlert";
 import { loginUser } from "../../helpers/authHelper";
 import Copyright from "../Copyright";
+import { siteConfig } from "../../config/seoConfig";
 
 const LoginView = () => {
   const navigate = useNavigate();
@@ -43,8 +44,8 @@ const LoginView = () => {
     <Container maxWidth={"xs"} sx={{ mt: 6 }}>
       <Stack alignItems="center">
         <Typography variant="h2" color="text.secondary" sx={{ mb: 6 }}>
-          <Link to="/" color="inherit" underline="none">
-            Sigar
+          <Link to="/">
+            {siteConfig.seo.title}
           </Link>
         </Typography>
         <Typography variant="h5" gutterBottom>

@@ -4,17 +4,18 @@ import {
   Stack,
   TextField,
   Typography,
-  Link,
+
   Alert,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
 import { signup } from "../../api/users";
 import { loginUser } from "../../helpers/authHelper";
-import { useNavigate } from "react-router-dom";
+import {  Link, useNavigate } from "react-router-dom";
 import Copyright from "../Copyright";
 import ErrorAlert from "../ErrorAlert";
 import { isLength, isEmail, contains } from "validator";
+import { siteConfig } from "../../config/seoConfig";
 
 const SignupView = () => {
   const navigate = useNavigate();
@@ -75,8 +76,8 @@ const SignupView = () => {
     <Container maxWidth={"xs"} sx={{ mt: { xs: 2, md: 6 } }}>
       <Stack alignItems="center">
         <Typography variant="h2" color="text.secondary" sx={{ mb: 6 }}>
-          <Link to="/" color="inherit" underline="none">
-            Sigar
+          <Link to="/" >
+            {siteConfig.seo.title}
           </Link>
         </Typography>
         <Typography variant="h5" gutterBottom>
