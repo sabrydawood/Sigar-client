@@ -54,8 +54,8 @@ const createPost = async (post, user) => {
     const res = await fetch(BASE_URL + "api/posts", {
       method: "POST",
       headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
+        Accept: "application/json; charset=UTF-8",
+        "Content-Type": "application/json; charset=UTF-8",
         "x-access-token": user.token,
       },
       body: JSON.stringify(post),
